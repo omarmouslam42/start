@@ -1,0 +1,107 @@
+nav{
+    background-color: #2C3E50;
+    z-index: 999;
+}
+.navbar-nav a{
+    font-size: 17px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active{
+    background-color: #1ABA9F;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.navbar-nav a:hover{
+    color: aqua;
+}
+h1{
+    font-size: 70px;
+}
+.home{
+    background-color: #1ABC9C;
+}
+.home img{
+    width: 250px;
+}
+.line{
+    width: 120px;
+    height: 4px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.header{
+    font-size: 48px;
+}
+.port-content{
+    cursor: pointer;
+}
+.img-layer{
+    background-color: #1ABA9F;
+    opacity: 0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.img-layer:hover{
+    opacity: 0.9;
+}
+.about{
+    background-color: #1ABC9C;
+}
+.contact input::placeholder{
+    font-size: 25px
+}
+.contact textarea::placeholder{
+    font-size: 25px
+}
+footer{
+background-color: #2C3E50;
+}
+.footer-icon{
+    cursor: pointer;
+}
+.footer-icon i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    color: white;
+}
+.footer-icon i:hover{
+    background-color: white;
+    color: black;
+}
+.end{
+    background-color: #1A252F;
+}
+.end p{
+    font-size: 13px;
+}
+.name-dis{
+    display: none;
+}
+.email-dis{
+    display: none;
+}
+.phone-dis{
+    display: none;
+}
+.area-dis{
+    display: none;
+}
