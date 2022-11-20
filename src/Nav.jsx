@@ -32,7 +32,6 @@ export default class Nav extends Component {
     </div>
   </div>
        </nav>
-       
        <Outlet/>
        <div className='end d-flex justify-content-center align-items-center text-white py-3'>
             <p >Copyright © Your Website 2021</p>

@@ -10,22 +10,20 @@ import './Components/home/home.css'
 import {createBrowserRouter , RouterProvider} from 'react-router-dom'
 import About from './Components/about/About';
 import Home from './Components/home/Home';
-// import Parent from './Components/parent/Parent';
 import Portfolio from './Components/portfolio/Portfolio';
 import Contact from './Components/contact/Contact';
 
 
 
 const router = createBrowserRouter([
-  {path: "", element: <Nav />,children :[
+  {path: "/start", element: <Nav />,children :[
   {path: "", element: <Home />},
   {path: "home", element: <Home />},
   {path: "portfolio", element: <Portfolio />},
   {path: "about", element: <About />},
   {path: "contact", element: <Contact />}
   ]},
-  {path: "*", element: <h2>4 0 4</h2>},
-  
+  // {path: "*", element: <h2>4 0 4</h2>},
 ])
 
 
